@@ -1,13 +1,14 @@
 
 body{
-    font-family: Spiegel /* conseguir este font */"Arial Narrow", Arial, sans-serif
+    font-family:"Spiegel", "Arial Narrow", Arial, sans-serif;
+
 }
 
 .navbar{
-   display: flex;
+   display: block;
    justify-content: start;
    align-items:center;
-   position:fixed;
+   position:relative;
    width: 100%;
    height: 10%;
    top: 0;
@@ -26,3 +27,60 @@ body{
     color: white;
 }
 
+.container-poro {  
+    position: relative;
+    display: block;
+    
+    min-height: 93vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+      "ayuda-a-un-poro poro-hearder foto3 texto3"
+      "foto1 texto1 foto4 texto4"
+      "foto2 texto2 foto5 texto5";
+  }
+  
+  .ayuda-a-un-poro { grid-area: ayuda-a-un-poro; 
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    font-weight:bold;
+    font-size:xx-large;
+}
+  
+  .poro-hearder { grid-area: poro-hearder;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.ayuda-a-un-poro-texto{
+    width: 60%;
+    text-align: center;
+}
+  
+  .foto1 { grid-area: foto1; }
+  
+  .foto2 { grid-area: foto2; }
+  
+  .texto1 { grid-area: texto1; }
+  
+  .texto2 { grid-area: texto2; }
+  
+  .foto3 { grid-area: foto3; }
+  
+  .texto3 { grid-area: texto3; }
+  
+  .foto4 { grid-area: foto4; }
+  
+  .texto4 { grid-area: texto4; }
+  
+  .foto5 { grid-area: foto5; }
+  
+  .texto5 { grid-area: texto5; }
+  
+
+  
