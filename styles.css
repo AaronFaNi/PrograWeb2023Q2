@@ -38,9 +38,9 @@ body{
     gap: 0px 0px;
     grid-auto-flow: row dense;
     grid-template-areas:
-      "ayuda-a-un-poro poro-hearder foto3 texto3"
-      "foto1 texto1 foto4 texto4"
-      "foto2 texto2 foto5 texto5";
+      "ayuda-a-un-poro poro-hearder Fluft-of-Poros cada-tipo-de-persona"
+      "poro-carinoso desde-carinosos poros-trabajadores poro-mitico"
+      "de-esto poro-solitario poro-jubiloso a-esto";
   }
   
   .ayuda-a-un-poro { grid-area: ayuda-a-un-poro; 
@@ -49,6 +49,7 @@ body{
     display:flex;
     font-weight:bold;
     font-size:xx-large;
+
 }
   
   .poro-hearder { grid-area: poro-hearder;
@@ -62,25 +63,81 @@ body{
     text-align: center;
 }
   
-  .foto1 { grid-area: foto1; }
+  .cada-tipo-de-persona { grid-area: cada-tipo-de-persona; 
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    font-size:xx-large;
+ 
+}
   
-  .foto2 { grid-area: foto2; }
+  .desde-carinosos { grid-area: desde-carinosos; 
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    font-size:xx-large;
+
+}
   
-  .texto1 { grid-area: texto1; }
+  .poro-carinoso { grid-area: poro-carinoso;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+
+}
   
-  .texto2 { grid-area: texto2; }
+  .poro-mitico { grid-area: poro-mitico; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
   
-  .foto3 { grid-area: foto3; }
+  .poros-trabajadores { grid-area: poros-trabajadores; 
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    font-size:xx-large;
+
+}
   
-  .texto3 { grid-area: texto3; }
+  .de-esto { grid-area: de-esto; 
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    font-size:xx-large;
+
+}
   
-  .foto4 { grid-area: foto4; }
+  .poro-solitario { grid-area: poro-solitario; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
   
-  .texto4 { grid-area: texto4; }
+  .poro-jubiloso { grid-area: poro-jubiloso; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
   
-  .foto5 { grid-area: foto5; }
+  .a-esto { grid-area: a-esto; 
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    font-size:xx-large;
+
+}
   
-  .texto5 { grid-area: texto5; }
+  .Fluft-of-Poros { grid-area: Fluft-of-Poros; 
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    font-size:xx-large;
+
+}
   
 
   
