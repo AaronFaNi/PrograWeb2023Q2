@@ -29,18 +29,19 @@ body{
 
 .container-poro {  
     position: relative;
-    display: block;
-    
-    min-height: 93vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
+    min-height: 93vh;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
     grid-auto-flow: row dense;
     grid-template-areas:
-      "ayuda-a-un-poro poro-hearder Fluft-of-Poros cada-tipo-de-persona"
-      "poro-carinoso desde-carinosos poros-trabajadores poro-mitico"
-      "de-esto poro-solitario poro-jubiloso a-esto";
+      "ayuda-a-un-poro poro-hearder "
+      "Fluft-of-Poros cada-tipo-de-persona"
+      "poro-carinoso desde-carinosos "
+      "poros-trabajadores poro-mitico"
+      "de-esto poro-solitario"
+      " poro-jubiloso a-esto";
   }
   
   .ayuda-a-un-poro { grid-area: ayuda-a-un-poro; 
@@ -56,6 +57,8 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
+    max-width: 100%;
+    height: auto;
     
 }
 .ayuda-a-un-poro-texto{
