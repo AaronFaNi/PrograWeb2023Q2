@@ -10,3 +10,44 @@ body{
     width: 35px;
     margin-right: 1%;
 }
+
+.fotoColumna{
+    max-width: 100%;
+    background-size: cover;
+    
+}
+
+.colGrande{
+    padding: 1%;
+}
+
+.textoColumnas{
+    display: flex;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.divCarousel{
+    padding: 2% 13%;
+    border-radius: 5%;
+}
+.textosCarousel{
+    padding: 1%;
+    color: black;
+    display: inline-block;
+    background-color: snow;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.tituloCarousel1{
+    text-align: center;
+}
+.carouselArriba{
+    margin-bottom: 2%;
+}
+
+.divFooter{
+    margin-top: 5%;
+}
