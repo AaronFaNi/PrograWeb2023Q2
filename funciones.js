@@ -38,3 +38,8 @@ function poroYoNoTeElijo() {
             break;
     }
 }
+
+function enviarMail() {
+    mensaje = document.getElementById("firstName").value + ", su mensaje fue enviado con exito! En breve nos pondremos en contacto con usted."
+    alert(mensaje); 
+}
